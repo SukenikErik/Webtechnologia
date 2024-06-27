@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(background1.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background: #283640;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  section {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition:0.3s ease;
+  }
+
+  section:hover{
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    transform: scale(1.05);
+  }
+  
+  section h2 {
+    color: #080f14;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  .education-item h3 {
+    margin-bottom: 5px;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    section {
+      max-width: 90%;
+    }
+  }
